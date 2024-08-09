@@ -1,0 +1,8 @@
+
+It's currently `r Sys.time()`
+
+```{r}
+library(ggplot2)
+ggplot(diamonds) +
+  geom_histogram(aes(carat), binwidth = 0.1)
+```
